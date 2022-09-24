@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>EJS Template</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="box" id="heading">
+    <h1>The movie name is  <%= listMovie %> </h1>
+    <p>The movie description is <%= listDescription %> </p>
+  </div>
+
+  <form action="/back" method="post">
+    <button type="submit">Go Back</button>
+  </form>
+
+</body>
+
+</html>
